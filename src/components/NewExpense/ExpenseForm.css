@@ -11,6 +11,15 @@
     margin-bottom: 0.5rem;
     display: block;
   }
+  .new-expense__control.control1.invalidTitle input{
+    background-color: rgb(235, 107, 107);
+  }
+  .new-expense__control.control2.invalidAmount input{
+    background-color: rgb(235, 107, 107);
+  }
+  .new-expense__control.control3.invalidDate input{
+    background-color: rgb(235, 107, 107);
+  }
   
   .new-expense__control input {
     font: inherit;
@@ -25,4 +34,12 @@
     text-align: right;
   }
 
- 
+ /* .title-input input {
+  border-color: red;
+ }
+ .invalidAmount input {
+  border-color: red;
+ }
+ .invalidDate input {
+  border-color: red;
+ } */
