@@ -54,6 +54,12 @@ const ExpenseForm = (props) => {
 
 
         props.onSaveExpenseData(expenseData);
+        // if(isTitleValid === true && isAmountValid === true && isDateValid === true) {
+        //     setInputTitle('');
+        //     setInputAmount('');
+        //     setInputDate('');
+        // };
+
         setInputTitle('');
         setInputAmount('');
         setInputDate('');
